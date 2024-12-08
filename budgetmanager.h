@@ -15,10 +15,10 @@ public:
     double getBudget() const;
 
     bool addExpense(double amount, const QString& category);
-    QList<QPair<QString, double>> getExpenses() const;
+    QList<QPair<QString, double>> getExpenses() const; //make sure to use const
 
 private:
-    Database db;
+    Database db; 
 };
 
 #endif // BUDGETMANAGER_H
