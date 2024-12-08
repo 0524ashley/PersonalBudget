@@ -74,7 +74,7 @@ void MainWindow::generateReport()
     // Calculate total expenses per category
     for (int row = 0; row < ui->expenseTableWidget->rowCount(); ++row) {
         QString category = ui->expenseTableWidget->item(row, 1)->text();
-        double amount = ui->expenseTableWidget->item(row, 0)->text().toDouble();
+        double amount = ui->expenseTableWidget->item(row, 0)->text().toDouble(); //bug fixed
 
         categoryTotals[category] += amount;
     }
