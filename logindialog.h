@@ -14,7 +14,7 @@ class LoginDialog : public QDialog
 
 public:
     explicit LoginDialog(QWidget *parent = nullptr);
-    ~LoginDialog();
+    ~LoginDialog(); // dialog null
 
 private slots:
     void onLogin();     // Slot for login button click
