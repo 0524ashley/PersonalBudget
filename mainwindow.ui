@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>50</y>
+      <y>30</y>
       <width>211</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -64,19 +64,19 @@ padding: 1px;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLineEdit {
-    border: 2px solid #B0B0B0; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 5px 10px; /* Padding inside the text box */
+     <string notr="true">/* Username and Password Line Edits */
+QLineEdit {
+    background-color: #F8F8F8; /* Light gray background */
+    color: #333333; /* Dark text color */
     font-family: &quot;Arial&quot;, sans-serif; /* Formal font */
-    font-size: 14px; /* Adjust size to your liking */
-    color: #333333; /* Text color */
-    background-color: #F7F7F7; /* Light background color */
+    font-size: 14px; /* Font size */
+    border: 1px solid #B0B0B0; /* Light border */
+    border-radius: 5px; /* Rounded corners */
 }
 
 QLineEdit:focus {
+    background-color: #FFFFFF; /* White background on focus */
     border-color: #4D90FE; /* Blue border when focused */
-    background-color: #FFFFFF; /* White background when focused */
 }
 </string>
     </property>
@@ -104,19 +104,19 @@ QLineEdit:focus {
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLineEdit {
-    border: 2px solid #B0B0B0; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 5px 10px; /* Padding inside the text box */
+     <string notr="true">/* Username and Password Line Edits */
+QLineEdit {
+    background-color: #F8F8F8; /* Light gray background */
+    color: #333333; /* Dark text color */
     font-family: &quot;Arial&quot;, sans-serif; /* Formal font */
-    font-size: 14px; /* Adjust size to your liking */
-    color: #333333; /* Text color */
-    background-color: #F7F7F7; /* Light background color */
+    font-size: 14px; /* Font size */
+    border: 1px solid #B0B0B0; /* Light border */
+    border-radius: 5px; /* Rounded corners */
 }
 
 QLineEdit:focus {
+    background-color: #FFFFFF; /* White background on focus */
     border-color: #4D90FE; /* Blue border when focused */
-    background-color: #FFFFFF; /* White background when focused */
 }
 </string>
     </property>
@@ -293,4 +293,3 @@ padding: 1px;
  <resources/>
  <connections/>
 </ui>
-
